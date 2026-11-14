@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://cpmxtsx6083t0"]
+
+[ext_resource type="Script" uid="uid://xnsey1l36sik" path="res://computer_ui.gd" id="1_f55l0"]
+
+[node name="ComputerUI" type="Control" unique_id=1070470734]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f55l0")
+
+[node name="Panel" type="Panel" parent="." unique_id=695582933]
+layout_mode = 0
+offset_right = 1153.0
+offset_bottom = 651.0
+
+[node name="TextEdit" type="TextEdit" parent="Panel" unique_id=1598424440]
+modulate = Color(0.26264155, 0.62380284, 0.3595588, 1)
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_right = 302.0
+offset_bottom = 33.0
+text = "If you don't know codes write #HELP"
+
+[node name="LineEdit" type="LineEdit" parent="Panel" unique_id=117235254]
+layout_mode = 0
+offset_top = 34.0
+offset_right = 455.0
+offset_bottom = 65.0
+
+[node name="OutputLabel" type="Label" parent="Panel" unique_id=1467116278]
+layout_mode = 0
+offset_top = 65.0
+offset_right = 456.0
+offset_bottom = 102.0

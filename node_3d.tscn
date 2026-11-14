@@ -1,0 +1,234 @@
+[gd_scene format=3 uid="uid://b74xdjyapd51f"]
+
+[ext_resource type="Script" uid="uid://canbgiphpj4fd" path="res://node_3d.gd" id="1_4arys"]
+[ext_resource type="PackedScene" uid="uid://82y6vsmoktqn" path="res://fnaf_sl_private_room_by_enyel_port_by_vincepai.glb" id="1_r3fl7"]
+[ext_resource type="PackedScene" uid="uid://b0jbsbu7c12ci" path="res://old_pc.glb" id="2_jka67"]
+[ext_resource type="PackedScene" uid="uid://b34kqg1wepmmv" path="res://pb49_cell_phone_old_sm.glb" id="3_i5arm"]
+[ext_resource type="PackedScene" uid="uid://b4ef7e5hj837r" path="res://old_table.glb" id="4_wc5p8"]
+[ext_resource type="Script" uid="uid://bkdmb66gkubvw" path="res://pb_49_cell_phone_old_sm.gd" id="5_6iypd"]
+[ext_resource type="PackedScene" uid="uid://c0du422cjeopf" path="res://908c81d438384e0c9d32971eaa444e6e.glb" id="5_jka67"]
+[ext_resource type="Script" uid="uid://blbxkv73hr43h" path="res://player.gd" id="6_i5arm"]
+[ext_resource type="AudioStream" uid="uid://dd7gyya45m6l5" path="res://phone_call.wav" id="6_tereu"]
+[ext_resource type="PackedScene" uid="uid://cpmxtsx6083t0" path="res://computer_ui.tscn" id="10_6iypd"]
+[ext_resource type="Script" uid="uid://dbw40agjmbwos" path="res://enemy.gd" id="11_cdqbm"]
+[ext_resource type="PackedScene" uid="uid://clqrobwnbc8w4" path="res://Injured Run.fbx" id="11_tereu"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pyjii"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6iypd"]
+size = Vector3(6.7586517, 10.147949, 7.4641113)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_pyjii"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1koja"]
+
+[node name="Node3D" type="Node3D" unique_id=134939189]
+script = ExtResource("1_4arys")
+
+[node name="Sketchfab_Scene" parent="." unique_id=472048928 instance=ExtResource("1_r3fl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0409652, -4.7683716e-07, 0.0084114075)
+
+[node name="Object_130" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77" parent_id_path=PackedInt32Array(472048928, 99319556) index="0" unique_id=1060037321]
+transform = Transform3D(1, 0, 0, 0, 1, -2.842171e-14, 0, 2.842171e-14, 1, 0, 3254.5989, -0.0005493164)
+visible = false
+
+[node name="Object_132" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/Ball_42" parent_id_path=PackedInt32Array(472048928, 578084744) index="0" unique_id=374068174]
+transform = Transform3D(1, 0, 0, 0, 1, -7.1054274e-14, 0, 7.1054274e-14, 1, -70.494064, -113.59276, 71.55444)
+
+[node name="Object_134" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/Ball_2_43" parent_id_path=PackedInt32Array(472048928, 574529452) index="0" unique_id=1466334981]
+transform = Transform3D(1, 0, 0, 0, 1, -9.947598e-14, 0, 9.947598e-14, 1, -53.72757, -127.319885, 66.97977)
+
+[node name="Object_136" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/Ball_3_44" parent_id_path=PackedInt32Array(472048928, 1704704908) index="0" unique_id=1051532650]
+transform = Transform3D(1, 0, 0, 0, 1, -7.1054274e-14, 0, 7.1054274e-14, 1, 430.33362, -97.07347, 63.258606)
+
+[node name="Bin_45" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77" parent_id_path=PackedInt32Array(472048928, 99319556) index="4" unique_id=1047245270]
+visible = false
+
+[node name="Object_138" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/Bin_45" index="0" unique_id=613899763]
+transform = Transform3D(1, 0, 0, 0, 1, -5.684342e-14, 0, 5.684342e-14, 1, -0.9027767, -0.79678345, -5326.7856)
+
+[node name="Bin_2_46" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77" parent_id_path=PackedInt32Array(472048928, 99319556) index="5" unique_id=1715366815]
+visible = false
+
+[node name="Object_140" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/Bin_2_46" index="0" unique_id=191105109]
+transform = Transform3D(1, 0, 0, 0, 1, -5.684342e-14, 0, 5.684342e-14, 1, -0.902771, -0.79678345, -5326.7856)
+
+[node name="Fan_53" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77" parent_id_path=PackedInt32Array(472048928, 99319556) index="6" unique_id=724216997]
+transform = Transform3D(0.85686606, -0.5155391, 1.4230268e-07, 0.5155391, 0.85686606, 7.819004e-08, -1.6224439e-07, 6.3642602e-09, 1, 174.82487, -46.667908, -82.15596)
+
+[node name="Fredbear_67" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77" parent_id_path=PackedInt32Array(472048928, 99319556) index="7" unique_id=755347342]
+transform = Transform3D(5.9604645e-08, 1.7881392e-07, 1, 1, -5.9604716e-08, -5.9604634e-08, 5.960469e-08, 1, -1.7881392e-07, -248.62445, 3806.3606, -149.51689)
+visible = false
+
+[node name="Object_194" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/Fredbear_67/Right_Leg_66" parent_id_path=PackedInt32Array(472048928, 1535669334) index="1" unique_id=459574168]
+visible = false
+
+[node name="Paper_68" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77" parent_id_path=PackedInt32Array(472048928, 99319556) index="8" unique_id=1690401497]
+visible = false
+
+[node name="Object_196" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/Paper_68" index="0" unique_id=1032069653]
+transform = Transform3D(0.99999994, 1.4901161e-08, 0, -1.4901161e-08, 0.99999994, 0, 3.5527137e-15, 2.842171e-14, 1, -119.90352, 17.461227, 0)
+
+[node name="Object_198" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/Paper_2_69" parent_id_path=PackedInt32Array(472048928, 860012510) index="0" unique_id=1631105716]
+transform = Transform3D(1.0000001, 0, 8.881784e-16, 0, 1.0000001, -1.4210855e-14, 0, 0, 1, -121.01477, -6.0972595, 0)
+visible = false
+
+[node name="Plastic_cup_72" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77" parent_id_path=PackedInt32Array(472048928, 99319556) index="10" unique_id=1833117492]
+transform = Transform3D(1, 0, 0, 0, 1, -8.526513e-14, 0, 8.526513e-14, 1, 213.04794, 64.17201, -76.1281)
+
+[node name="TV_1_73" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/TV_Desk_76" parent_id_path=PackedInt32Array(472048928, 575325459) index="0" unique_id=1029015586]
+transform = Transform3D(1, 0, 0, 0, 1, -1.4210855e-14, 0, 1.4210855e-14, 1, -77.76792, 2330.9526, -73.72272)
+visible = false
+
+[node name="Object_207" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/TV_Desk_76/TV_1_73" index="0" unique_id=1735298817]
+transform = Transform3D(0.9949456, -0.10041725, 1.6929077e-08, 0.10041725, 0.9949456, 8.5209706e-10, -1.692907e-08, 8.521539e-10, 1, 148.28192, -2.7363892, 0)
+
+[node name="Object_209" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/TV_Desk_76/TV_1_73" index="2" unique_id=481060795]
+transform = Transform3D(0.9949456, -0.10041725, 1.6929077e-08, 0.10041725, 0.9949456, 8.5209706e-10, -1.692907e-08, 8.521539e-10, 1, 148.28192, -2.7363892, 0)
+
+[node name="TV_2_74" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/TV_Desk_76" parent_id_path=PackedInt32Array(472048928, 575325459) index="1" unique_id=371841548]
+transform = Transform3D(1, 0, 0, 0, 1, -2.842171e-14, 0, 2.842171e-14, 1, 71.080086, 2124.2358, -73.72269)
+visible = false
+
+[node name="Object_211" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/TV_Desk_76/TV_2_74" index="0" unique_id=892896066]
+transform = Transform3D(1, 0, 0, 0, 1, -1.4210855e-14, 0, 1.4210855e-14, 1, 79.27211, 0, 0)
+
+[node name="Object_212" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/TV_Desk_76/TV_2_74" index="1" unique_id=863385390]
+transform = Transform3D(1, 0, 0, 0, 1, -1.4210855e-14, 0, 1.4210855e-14, 1, 79.27211, 0, 0)
+
+[node name="Object_213" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/TV_Desk_76/TV_2_74" index="2" unique_id=1776234946]
+transform = Transform3D(0.9949456, -0.10041725, 1.6929077e-08, 0.10041725, 0.9949456, 8.5208285e-10, -1.692907e-08, 8.5219654e-10, 1, -271.08008, 4159.8423, -0.0007019043)
+visible = false
+
+[node name="TV_3_75" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/TV_Desk_76" parent_id_path=PackedInt32Array(472048928, 575325459) index="2" unique_id=1497575600]
+transform = Transform3D(1, 0, 0, 0, 1, -1.4210855e-14, 0, 1.4210855e-14, 1, -2.937889, 2752.9084, -214.26147)
+visible = false
+
+[node name="Object_215" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/TV_Desk_76/TV_3_75" index="0" unique_id=1218998095]
+transform = Transform3D(0.9949456, -0.10041725, 1.6929077e-08, 0.10041725, 0.9949456, 8.5209706e-10, -1.692907e-08, 8.521539e-10, 1, 147.9037, 4.777771, 0)
+
+[node name="Object_216" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/TV_Desk_76/TV_3_75" index="1" unique_id=1048951617]
+transform = Transform3D(0.9949456, -0.10041725, 1.6929077e-08, 0.10041725, 0.9949456, 8.5209706e-10, -1.692907e-08, 8.521539e-10, 1, 147.9037, 4.777771, 0)
+
+[node name="Object_217" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Desk_77/TV_Desk_76/TV_3_75" index="2" unique_id=877814714]
+transform = Transform3D(0.9949456, -0.10041725, 1.6929077e-08, 0.10041725, 0.9949456, 8.5209706e-10, -1.692907e-08, 8.521539e-10, 1, 147.9037, 4.777771, 0)
+
+[node name="Object_303" parent="Sketchfab_Scene/Sketchfab_model/root/GLTF_SceneRootNode/���FNaFSL_Private_Room_By__EnyelC4D���_147/Objects_146/Office_125/Poster_121" parent_id_path=PackedInt32Array(472048928, 1057714572) index="0" unique_id=1834312581]
+visible = false
+
+[node name="Sketchfab_Scene2" parent="." unique_id=1110172262 instance=ExtResource("2_jka67")]
+transform = Transform3D(0.04473464, 0, -0.9989989, 0, 1, 0, 0.9989989, 0, 0.04473464, 0, 2.7694526, 1.1470456)
+
+[node name="Caf��_0" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="0" unique_id=1854929814]
+transform = Transform3D(0.1672662, 0, 9.313226e-10, 0, 0.1672662, 0, -9.313226e-10, 0, 0.1672662, -495.09055, 0.21384382, -23.21783)
+visible = false
+
+[node name="Libro 1_3" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="1" unique_id=412502698]
+visible = false
+
+[node name="Monton_4" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="2" unique_id=560726723]
+visible = false
+
+[node name="Papel solo_5" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="3" unique_id=776262977]
+visible = false
+
+[node name="Papel top_6" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="4" unique_id=1751374519]
+visible = false
+
+[node name="Libro 2_7" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="5" unique_id=1139703455]
+visible = false
+
+[node name="Libro 3_8" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="6" unique_id=1925731434]
+visible = false
+
+[node name="Libro  4_9" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="7" unique_id=2042889945]
+visible = false
+
+[node name="Note_10" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="8" unique_id=1629217227]
+transform = Transform3D(0.003193975, 0, 0, 0, 0.1534829, 0, 1.4551915e-11, 0, 0.18266451, -739.7328, 0.57419634, -32.405956)
+visible = false
+
+[node name="Object_29" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode/Note_10" index="0" unique_id=63191849]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.0000001, 13276.044, 0, 10.39501)
+
+[node name="Disquet 1_16" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="14" unique_id=1036873888]
+transform = Transform3D(0.00026574556, 0, 0, 0, 0.19898698, 0, -9.094947e-13, 0, 0.19898698, 1.381923, 0.0674665, 1.6486274)
+
+[node name="Disquet 2_19" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="17" unique_id=911629399]
+transform = Transform3D(0.00023366077, 0, 0.09478408, 0, 0.198987, 0, -0.00012658334, 0, 0.17496236, 1.492234, 0.07316351, 1.650101)
+
+[node name="Disquet 3_20" parent="Sketchfab_Scene2/Sketchfab_model/root/GLTF_SceneRootNode" parent_id_path=PackedInt32Array(1110172262, 1561710538) index="18" unique_id=1492069092]
+transform = Transform3D(0.00026560805, 0, -0.00640238, 0, 0.19898698, 0, 8.550308e-06, 0, 0.198884, 1.4875474, 0.07872772, 1.630892)
+
+[node name="Computer" type="StaticBody3D" parent="Sketchfab_Scene2" unique_id=547055160]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_Scene2/Computer" unique_id=545872278]
+transform = Transform3D(2, 0, 7.450579e-09, 0, 2, 0, -7.450579e-09, 0, 2, 0.21236813, 0.778285, 0.009509731)
+shape = SubResource("BoxShape3D_pyjii")
+
+[node name="Sketchfab_Scene3" parent="." unique_id=1342120091 instance=ExtResource("3_i5arm")]
+transform = Transform3D(0.04391654, 0, -0.043764573, 0, 0.062000006, 0, 0.043764573, 0, 0.04391654, -0.22338605, 3.103642, -0.25199652)
+script = ExtResource("5_6iypd")
+
+[node name="Phone" type="StaticBody3D" parent="Sketchfab_Scene3" unique_id=2049601011]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22800446, 0, 0.228796)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_Scene3/Phone" unique_id=658258290]
+transform = Transform3D(3, 0, 1.0459472e-07, 0, 3, 0, -1.0459472e-07, 0, 3, -1.7120619, 0.623291, 40.907864)
+rotation_order = 0
+shape = SubResource("BoxShape3D_6iypd")
+debug_color = Color(0.0241626, 0.6549809, 0.8196735, 0.41960785)
+
+[node name="PhoneAudio" type="AudioStreamPlayer3D" parent="Sketchfab_Scene3/Phone" unique_id=1467516066]
+transform = Transform3D(16.129032, 0, -1.9073486e-06, 0, 16.12903, 0, -1.9073486e-06, 0, -16.129032, 0.654439, 0, 43.07899)
+stream = ExtResource("6_tereu")
+unit_size = 23.42
+pitch_scale = 1.06
+max_distance = 42.45
+
+[node name="Sketchfab_Scene4" parent="." unique_id=1445440182 instance=ExtResource("4_wc5p8")]
+transform = Transform3D(0.055820726, 0, 0, 0, 0.03839897, 0, 0, 0, 0.039, 0, -0.0641551, 1.9692941)
+
+[node name="Sketchfab_Scene5" parent="." unique_id=1431081137 instance=ExtResource("5_jka67")]
+transform = Transform3D(3.805, 0, 0, 0, 3.805, 0, 0, 0, 3.805, 0, 0.19354129, 4.512153)
+
+[node name="Player" type="CharacterBody3D" parent="." unique_id=734100496]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8937829, 4.5579834)
+script = ExtResource("6_i5arm")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player" unique_id=1235987309]
+shape = SubResource("CylinderShape3D_pyjii")
+
+[node name="Camera3D" type="Camera3D" parent="Player" unique_id=1116741849]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2470663, 0)
+
+[node name="PhoneRay" type="RayCast3D" parent="Player/Camera3D" unique_id=1890549952]
+transform = Transform3D(2.2105746, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+target_position = Vector3(0, 0, -4.3)
+
+[node name="CAM3" type="Camera3D" parent="." unique_id=596320589]
+transform = Transform3D(1, 0, 0, 0, 0.97738457, 0.21146962, 0, -0.21146962, 0.97738457, -8.042466, 8.1094265, 14.212969)
+
+[node name="CAM1" type="Camera3D" parent="CAM3" unique_id=759329037]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.243145, 0, 0)
+
+[node name="CAM2" type="Camera3D" parent="CAM3" unique_id=41876667]
+transform = Transform3D(-0.9198054, -0.08297533, 0.38350117, 0.082975455, 0.91414744, 0.39679906, -0.3835011, 0.39679915, -0.8339528, 13.956888, 12.980153, -59.992542)
+
+[node name="ComputerUI" parent="." unique_id=1070470734 instance=ExtResource("10_6iypd")]
+
+[node name="Enemy" type="CharacterBody3D" parent="." unique_id=872906249]
+transform = Transform3D(3.4, 0, 0, 0, 3.4, 0, 0, 0, 3.4, 0, 0, -33.83445)
+script = ExtResource("11_cdqbm")
+
+[node name="Injured Run" parent="Enemy" unique_id=697904759 instance=ExtResource("11_tereu")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Enemy" unique_id=2130204070]
+transform = Transform3D(1.0000001, 0, 0, 0, 1.0000001, 0, 0, 0, 1.0000001, 0, 0.97524226, 0)
+shape = SubResource("BoxShape3D_1koja")
+debug_color = Color(0, 0.5772002, 0.8170297, 0.41960785)
+
+[editable path="Sketchfab_Scene"]
+[editable path="Sketchfab_Scene2"]
+[editable path="Sketchfab_Scene3"]
+[editable path="Enemy/Injured Run"]
